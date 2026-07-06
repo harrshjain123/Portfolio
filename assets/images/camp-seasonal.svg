@@ -1,0 +1,81 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" font-family="Inter,sans-serif">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1206"/>
+      <stop offset="100%" style="stop-color:#0d0f1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg5)" rx="12"/>
+  <rect x="0" y="0" width="600" height="56" fill="#151006" rx="12"/>
+  <rect x="0" y="44" width="600" height="12" fill="#151006"/>
+  <circle cx="24" cy="28" r="7" fill="#f59e0b"/>
+  <text x="40" y="32" fill="#fbbf24" font-size="11" font-weight="700">SEASONAL PROMOTIONAL CAMPAIGN</text>
+  <rect x="480" y="18" width="100" height="20" rx="10" fill="#f59e0b" opacity="0.2"/>
+  <text x="530" y="32" fill="#fbbf24" font-size="10" text-anchor="middle" font-weight="600">GOOGLE ADS</text>
+
+  <!-- Calendar heatmap style -->
+  <rect x="20" y="70" width="340" height="160" rx="10" fill="#0f0c04"/>
+  <text x="36" y="92" fill="#a9aecf" font-size="11" font-weight="600">Spend &amp; Revenue by Week</text>
+
+  <!-- Grouped bar pairs (spend vs revenue) -->
+  <g transform="translate(36,100)">
+    <!-- Week labels -->
+    <text x="18"  y="145" fill="#5a5f80" font-size="8" text-anchor="middle">W1</text>
+    <text x="68"  y="145" fill="#5a5f80" font-size="8" text-anchor="middle">W2</text>
+    <text x="118" y="145" fill="#5a5f80" font-size="8" text-anchor="middle">W3</text>
+    <text x="168" y="145" fill="#5a5f80" font-size="8" text-anchor="middle">W4</text>
+    <text x="218" y="145" fill="#5a5f80" font-size="8" text-anchor="middle">W5</text>
+    <text x="268" y="145" fill="#5a5f80" font-size="8" text-anchor="middle">W6</text>
+    <!-- Spend bars (gold) -->
+    <rect x="6"   y="88"  width="16" height="42" rx="3" fill="#f59e0b" opacity="0.7"/>
+    <rect x="56"  y="70"  width="16" height="60" rx="3" fill="#f59e0b" opacity="0.7"/>
+    <rect x="106" y="45"  width="16" height="85" rx="3" fill="#f59e0b" opacity="0.7"/>
+    <rect x="156" y="35"  width="16" height="95" rx="3" fill="#f59e0b"/>
+    <rect x="206" y="55"  width="16" height="75" rx="3" fill="#f59e0b" opacity="0.8"/>
+    <rect x="256" y="75"  width="16" height="55" rx="3" fill="#f59e0b" opacity="0.6"/>
+    <!-- Revenue bars (green) -->
+    <rect x="24"  y="70"  width="16" height="60"  rx="3" fill="#22c55e" opacity="0.7"/>
+    <rect x="74"  y="48"  width="16" height="82"  rx="3" fill="#22c55e" opacity="0.7"/>
+    <rect x="124" y="20"  width="16" height="110" rx="3" fill="#22c55e"/>
+    <rect x="174" y="10"  width="16" height="120" rx="3" fill="#22c55e"/>
+    <rect x="224" y="30"  width="16" height="100" rx="3" fill="#22c55e" opacity="0.8"/>
+    <rect x="274" y="52"  width="16" height="78"  rx="3" fill="#22c55e" opacity="0.6"/>
+  </g>
+  <!-- Legend -->
+  <rect x="36" y="215" width="12" height="12" rx="2" fill="#f59e0b"/>
+  <text x="54" y="225" fill="#a9aecf" font-size="9">Ad Spend</text>
+  <rect x="110" y="215" width="12" height="12" rx="2" fill="#22c55e"/>
+  <text x="128" y="225" fill="#a9aecf" font-size="9">Revenue</text>
+
+  <!-- Festival cards right column -->
+  <rect x="374" y="70" width="206" height="160" rx="10" fill="#0f0c04"/>
+  <text x="390" y="92" fill="#a9aecf" font-size="11" font-weight="600">Festival Performance</text>
+
+  <rect x="390" y="100" width="174" height="32" rx="7" fill="#1a1206"/>
+  <text x="402" y="113" fill="#fbbf24" font-size="9" font-weight="700">🎃 Diwali Campaign</text>
+  <text x="402" y="127" fill="#eaecf8" font-size="11" font-weight="800">ROAS: 5.1x  |  CTR: 4.2%</text>
+
+  <rect x="390" y="138" width="174" height="32" rx="7" fill="#1a1206"/>
+  <text x="402" y="151" fill="#fbbf24" font-size="9" font-weight="700">🎄 New Year Sale</text>
+  <text x="402" y="165" fill="#eaecf8" font-size="11" font-weight="800">ROAS: 4.7x  |  CTR: 3.8%</text>
+
+  <rect x="390" y="176" width="174" height="32" rx="7" fill="#1a1206"/>
+  <text x="402" y="189" fill="#fbbf24" font-size="9" font-weight="700">🛒 End-of-Season</text>
+  <text x="402" y="203" fill="#eaecf8" font-size="11" font-weight="800">ROAS: 3.9x  |  CTR: 3.1%</text>
+
+  <!-- Bottom KPI row -->
+  <rect x="20" y="244" width="560" height="110" rx="10" fill="#0f0c04"/>
+  <text x="36" y="266" fill="#a9aecf" font-size="11" font-weight="600">Overall Campaign Results</text>
+  <rect x="36"  y="276" width="118" height="58" rx="8" fill="#1a1206"/>
+  <text x="95"  y="292" fill="#5a5f80" font-size="8" text-anchor="middle" font-weight="600">TOTAL SPEND</text>
+  <text x="95"  y="318" fill="#eaecf8" font-size="20" text-anchor="middle" font-weight="800">₹84K</text>
+  <rect x="163" y="276" width="118" height="58" rx="8" fill="#1a1206"/>
+  <text x="222" y="292" fill="#5a5f80" font-size="8" text-anchor="middle" font-weight="600">REVENUE</text>
+  <text x="222" y="318" fill="#eaecf8" font-size="20" text-anchor="middle" font-weight="800">₹3.9L</text>
+  <rect x="290" y="276" width="118" height="58" rx="8" fill="#1a1206"/>
+  <text x="349" y="292" fill="#5a5f80" font-size="8" text-anchor="middle" font-weight="600">AVG. ROAS</text>
+  <text x="349" y="318" fill="#fbbf24" font-size="20" text-anchor="middle" font-weight="800">4.6x</text>
+  <rect x="417" y="276" width="146" height="58" rx="8" fill="#1a1206"/>
+  <text x="490" y="292" fill="#5a5f80" font-size="8" text-anchor="middle" font-weight="600">ORDERS PLACED</text>
+  <text x="490" y="318" fill="#eaecf8" font-size="20" text-anchor="middle" font-weight="800">1,620</text>
+</svg>

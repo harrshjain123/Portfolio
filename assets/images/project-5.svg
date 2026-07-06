@@ -1,0 +1,60 @@
+<svg width="600" height="380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f1a0a"/>
+      <stop offset="100%" stop-color="#0a1a0f"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#bg5)" rx="16"/>
+  <rect x="0" y="0" width="600" height="48" fill="rgba(255,255,255,0.04)" rx="16"/>
+  <text x="22" y="31" font-family="Arial" font-size="13" fill="rgba(100,220,120,0.7)" font-weight="600">GOOGLE ADS · SEASONAL PROMO</text>
+
+  <!-- Big ROI -->
+  <text x="22" y="86" font-family="Arial" font-size="11" fill="rgba(255,255,255,0.35)">CAMPAIGN ROAS</text>
+  <text x="22" y="138" font-family="Arial" font-size="56" fill="#34D399" font-weight="900">5.1x</text>
+
+  <!-- KPIs -->
+  <rect x="200" y="62" width="130" height="56" rx="10" fill="rgba(52,211,153,0.08)" stroke="rgba(52,211,153,0.2)" stroke-width="1"/>
+  <text x="265" y="82" text-anchor="middle" font-family="Arial" font-size="10" fill="rgba(80,220,140,0.7)">REVENUE</text>
+  <text x="265" y="108" text-anchor="middle" font-family="Arial" font-size="22" fill="#34D399" font-weight="800">₹1.8L</text>
+
+  <rect x="344" y="62" width="130" height="56" rx="10" fill="rgba(251,188,5,0.08)" stroke="rgba(251,188,5,0.2)" stroke-width="1"/>
+  <text x="409" y="82" text-anchor="middle" font-family="Arial" font-size="10" fill="rgba(255,210,80,0.7)">SPEND</text>
+  <text x="409" y="108" text-anchor="middle" font-family="Arial" font-size="22" fill="#FBBC05" font-weight="800">₹35k</text>
+
+  <rect x="488" y="62" width="90" height="56" rx="10" fill="rgba(234,67,53,0.08)" stroke="rgba(234,67,53,0.2)" stroke-width="1"/>
+  <text x="533" y="82" text-anchor="middle" font-family="Arial" font-size="10" fill="rgba(255,100,90,0.7)">CTR</text>
+  <text x="533" y="108" text-anchor="middle" font-family="Arial" font-size="22" fill="#EA4335" font-weight="800">4.1%</text>
+
+  <!-- Line chart (trend) -->
+  <text x="22" y="162" font-family="Arial" font-size="11" fill="rgba(255,255,255,0.35)">CONVERSIONS TREND — SEASONAL PEAK</text>
+  <polyline points="30,320 100,305 170,290 240,268 310,250 380,235 450,215 520,200 578,190"
+    fill="none" stroke="#34D399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- area under curve -->
+  <polygon points="30,330 30,320 100,305 170,290 240,268 310,250 380,235 450,215 520,200 578,190 578,330"
+    fill="rgba(52,211,153,0.06)"/>
+  <!-- dots on line -->
+  <circle cx="30"  cy="320" r="3.5" fill="#34D399"/>
+  <circle cx="100" cy="305" r="3.5" fill="#34D399"/>
+  <circle cx="170" cy="290" r="3.5" fill="#34D399"/>
+  <circle cx="240" cy="268" r="3.5" fill="#34D399"/>
+  <circle cx="310" cy="250" r="3.5" fill="#34D399"/>
+  <circle cx="380" cy="235" r="3.5" fill="#34D399"/>
+  <circle cx="450" cy="215" r="3.5" fill="#34D399"/>
+  <circle cx="520" cy="200" r="4.5" fill="#34D399" stroke="white" stroke-width="1.5"/>
+  <circle cx="578" cy="190" r="4.5" fill="#FBBC05" stroke="white" stroke-width="1.5"/>
+  <text x="520" y="192" font-family="Arial" font-size="9" fill="rgba(255,255,255,0.6)">Peak</text>
+
+  <line x1="22" y1="332" x2="590" y2="332" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+  <!-- X axis labels -->
+  <text x="30"  y="346" text-anchor="middle" font-family="Arial" font-size="9" fill="rgba(255,255,255,0.3)">Nov 1</text>
+  <text x="170" y="346" text-anchor="middle" font-family="Arial" font-size="9" fill="rgba(255,255,255,0.3)">Nov 7</text>
+  <text x="310" y="346" text-anchor="middle" font-family="Arial" font-size="9" fill="rgba(255,255,255,0.3)">Nov 14</text>
+  <text x="450" y="346" text-anchor="middle" font-family="Arial" font-size="9" fill="rgba(255,255,255,0.3)">Nov 21</text>
+  <text x="578" y="346" text-anchor="middle" font-family="Arial" font-size="9" fill="rgba(255,255,255,0.3)">Nov 30</text>
+
+  <!-- label badge peak -->
+  <rect x="462" y="174" width="130" height="36" rx="8" fill="rgba(251,188,5,0.15)" stroke="rgba(251,188,5,0.3)" stroke-width="1"/>
+  <text x="527" y="197" text-anchor="middle" font-family="Arial" font-size="12" fill="#FBBC05" font-weight="700">🏆 Best ROAS Day · 7.2x</text>
+</svg>

@@ -1,0 +1,57 @@
+<svg width="600" height="380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#150a1e"/>
+      <stop offset="100%" stop-color="#0d1020"/>
+    </linearGradient>
+    <linearGradient id="pinkbar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#E11D74"/>
+      <stop offset="100%" stop-color="#F9507A"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#bg6)" rx="16"/>
+  <rect x="0" y="0" width="600" height="48" fill="rgba(255,255,255,0.04)" rx="16"/>
+  <text x="22" y="31" font-family="Arial" font-size="13" fill="rgba(255,120,170,0.7)" font-weight="600">META ADS · FUNNEL OPTIMISATION</text>
+
+  <!-- Title -->
+  <text x="22" y="82" font-family="Arial" font-size="11" fill="rgba(255,255,255,0.35)">RETARGETING + A/B TEST RESULTS</text>
+
+  <!-- A/B test comparison -->
+  <rect x="22" y="94" width="265" height="110" rx="12" fill="rgba(249,80,122,0.08)" stroke="rgba(249,80,122,0.2)" stroke-width="1"/>
+  <text x="155" y="116" text-anchor="middle" font-family="Arial" font-size="11" fill="rgba(255,120,170,0.7)">VARIANT A — CAROUSEL</text>
+  <text x="155" y="152" text-anchor="middle" font-family="Arial" font-size="34" fill="#F9507A" font-weight="900">2.1%</text>
+  <text x="155" y="174" text-anchor="middle" font-family="Arial" font-size="11" fill="rgba(255,255,255,0.4)">Conv Rate</text>
+  <text x="155" y="196" text-anchor="middle" font-family="Arial" font-size="12" fill="rgba(255,255,255,0.35)">CPL: ₹142</text>
+
+  <rect x="300" y="94" width="278" height="110" rx="12" fill="rgba(76,175,80,0.08)" stroke="rgba(76,175,80,0.25)" stroke-width="1.5"/>
+  <text x="439" y="116" text-anchor="middle" font-family="Arial" font-size="11" fill="rgba(100,220,120,0.7)">VARIANT B — VIDEO  ✓ WINNER</text>
+  <text x="439" y="152" text-anchor="middle" font-family="Arial" font-size="34" fill="#4CAF50" font-weight="900">4.8%</text>
+  <text x="439" y="174" text-anchor="middle" font-family="Arial" font-size="11" fill="rgba(255,255,255,0.4)">Conv Rate</text>
+  <text x="439" y="196" text-anchor="middle" font-family="Arial" font-size="12" fill="rgba(255,255,255,0.35)">CPL: ₹62</text>
+
+  <!-- Improvement badge -->
+  <rect x="200" y="218" width="200" height="40" rx="20" fill="rgba(76,175,80,0.15)" stroke="rgba(76,175,80,0.3)" stroke-width="1"/>
+  <text x="300" y="244" text-anchor="middle" font-family="Arial" font-size="13" fill="#4CAF50" font-weight="700">▲ 128% improvement</text>
+
+  <!-- Retargeting audience breakdown -->
+  <text x="22" y="284" font-family="Arial" font-size="11" fill="rgba(255,255,255,0.35)">RETARGETING AUDIENCE SOURCES</text>
+  <rect x="22" y="296" width="100" height="62" rx="10" fill="rgba(249,80,122,0.1)" stroke="rgba(249,80,122,0.2)" stroke-width="1"/>
+  <text x="72" y="316" text-anchor="middle" font-family="Arial" font-size="9" fill="rgba(255,120,170,0.6)">WEBSITE VISITORS</text>
+  <text x="72" y="342" text-anchor="middle" font-family="Arial" font-size="20" fill="#F9507A" font-weight="800">3.2k</text>
+
+  <rect x="136" y="296" width="100" height="62" rx="10" fill="rgba(168,85,247,0.1)" stroke="rgba(168,85,247,0.2)" stroke-width="1"/>
+  <text x="186" y="316" text-anchor="middle" font-family="Arial" font-size="9" fill="rgba(200,150,255,0.6)">VIDEO VIEWERS</text>
+  <text x="186" y="342" text-anchor="middle" font-family="Arial" font-size="20" fill="#A855F7" font-weight="800">8.6k</text>
+
+  <rect x="250" y="296" width="100" height="62" rx="10" fill="rgba(251,188,5,0.08)" stroke="rgba(251,188,5,0.2)" stroke-width="1"/>
+  <text x="300" y="316" text-anchor="middle" font-family="Arial" font-size="9" fill="rgba(255,210,80,0.6)">IG ENGAGERS</text>
+  <text x="300" y="342" text-anchor="middle" font-family="Arial" font-size="20" fill="#FBBC05" font-weight="800">5.1k</text>
+
+  <rect x="364" y="296" width="100" height="62" rx="10" fill="rgba(66,133,244,0.08)" stroke="rgba(66,133,244,0.2)" stroke-width="1"/>
+  <text x="414" y="316" text-anchor="middle" font-family="Arial" font-size="9" fill="rgba(100,160,255,0.6)">CART ABANDON</text>
+  <text x="414" y="342" text-anchor="middle" font-family="Arial" font-size="20" fill="#4285F4" font-weight="800">1.8k</text>
+
+  <rect x="478" y="296" width="100" height="62" rx="10" fill="rgba(52,211,153,0.08)" stroke="rgba(52,211,153,0.2)" stroke-width="1"/>
+  <text x="528" y="316" text-anchor="middle" font-family="Arial" font-size="9" fill="rgba(80,220,140,0.6)">TOTAL REACH</text>
+  <text x="528" y="342" text-anchor="middle" font-family="Arial" font-size="20" fill="#34D399" font-weight="800">18k</text>
+</svg>
