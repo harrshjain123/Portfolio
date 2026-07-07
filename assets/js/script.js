@@ -164,7 +164,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 // ⬇ Change this to your deployed backend URL when hosting online
 // e.g. "https://your-backend.onrender.com/api/contact"
-const BACKEND_URL = "http://localhost:3001/api/contact";
+const BACKEND_URL = "const BACKEND_URL = "https://harsh-portfolio-backend.onrender.com/api/contact";
 
 // Toast notification helper
 function showToast(message, type) {
