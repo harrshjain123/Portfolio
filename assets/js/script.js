@@ -144,14 +144,25 @@ const pages = document.querySelectorAll("[data-page]");
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
 
-    for (let i = 0; i < pages.length; i++) {
-      if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
-        pages[i].classList.add("active");
-        navigationLinks[i].classList.add("active");
+    // get clicked label — trim whitespace + lowercase to match data-page
+    const clickedPage = this.innerHTML.trim().toLowerCase();
+
+    // show matching page, hide others
+    for (let j = 0; j < pages.length; j++) {
+      if (clickedPage === pages[j].dataset.page) {
+        pages[j].classList.add("active");
         window.scrollTo(0, 0);
       } else {
-        pages[i].classList.remove("active");
-        navigationLinks[i].classList.remove("active");
+        pages[j].classList.remove("active");
+      }
+    }
+
+    // update active highlight on nav links
+    for (let k = 0; k < navigationLinks.length; k++) {
+      if (navigationLinks[k].innerHTML.trim().toLowerCase() === clickedPage) {
+        navigationLinks[k].classList.add("active");
+      } else {
+        navigationLinks[k].classList.remove("active");
       }
     }
 
@@ -164,7 +175,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 // ⬇ Change this to your deployed backend URL when hosting online
 // e.g. "https://your-backend.onrender.com/api/contact"
-const BACKEND_URL = "const BACKEND_URL = "https://harsh-portfolio-backend.onrender.com/api/contact";
+const BACKEND_URL = "http://localhost:3001/api/contact";
 
 // Toast notification helper
 function showToast(message, type) {
